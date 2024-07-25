@@ -33,7 +33,7 @@ async def start(client, message):
             [
                 InlineKeyboardButton('🙆🏻 Hᴇʟᴘ 🦾', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ],[
-            InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 ℂℍ𝔸ℕℕ𝔼𝕃 ⪧', url='https://t.me/+K7ss_DvjBBljNDll')
+            InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 𝔾ℝ𝕆𝕌ℙ  ⪧', url='https://t.me/+K7ss_DvjBBljNDll')
             ],[
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
             ],
@@ -65,12 +65,12 @@ async def start(client, message):
             InlineKeyboardButton('⚙ Sᴇᴛᴛɪɴɢs', callback_data='openSettings'),
             InlineKeyboardButton('♥️ Aʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 ℂℍ𝔸ℕℕ𝔼𝕃 ⪧', url='https://t.me/+K7ss_DvjBBljNDll')
+            InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 𝔾ℝ𝕆𝕌ℙ  ⪧', url='https://t.me/+K7ss_DvjBBljNDll')
             ],[
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
             ],[
                 InlineKeyboardButton(
-                    "🦋 Join our main channel  🦋", url='https://t.me/Telugu_machaa'
+                    "🦋 ΜΔƗŇ ĆĦΔŇŇ€Ł  🦋", url='https://t.me/Telugu_machaa'
                 )
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -95,7 +95,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 Join our main channel 🦋", url='https://t.me/Telugu_machaa'
+                    "🦋 ĴØƗŇ ΜΔƗŇ ĆĦΔŇŇ€Ł 🦋", url='https://t.me/Telugu_machaa'
                 )
             ]
         ]
@@ -128,13 +128,13 @@ async def start(client, message):
             InlineKeyboardButton('♥️ Aʙᴏᴜᴛ', callback_data='about')
             ],
         [
-            InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 ℂℍ𝔸ℕℕ𝔼𝕃 ⪧', url='https://t.me/+K7ss_DvjBBljNDll')
+            InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 𝔾ℝ𝕆𝕌ℙ  ⪧', url='https://t.me/+K7ss_DvjBBljNDll')
         ],
         [
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
         ],[
                 InlineKeyboardButton(
-                    "🦋 Join our main channel 🦋", url='https://t.me/Telugu_machaa'
+                    "🦋 ΜΔƗŇ ĆĦΔŇŇ€Ł 🦋", url='https://t.me/Telugu_machaa'
                 )
             ]
         ]
@@ -870,7 +870,7 @@ async def plan(client, message):
 	
         InlineKeyboardButton("📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ", url=f"https://t.me/{ADMIN_USRNM}")],[InlineKeyboardButton("❌ ᴄʟᴏꜱᴇ ❌", callback_data="close_data")
     ]]
-    await message.reply_photo(photo="https://graph.org/file/55a5392f88ec5a4bd3379.jpg", caption=script.PLANS_TXT.format(message.from_user.mention, UPI_ID, QR_CODE_IMG), reply_markup=InlineKeyboardMarkup(btn), parse_mode=enums.ParseMode.HTML)
+    await message.reply_photo(photo="https://telegra.ph/file/86697360ccf13426a90b6.jpg", caption=script.PLANS_TXT.format(message.from_user.mention, UPI_ID, QR_CODE_IMG), reply_markup=InlineKeyboardMarkup(btn), parse_mode=enums.ParseMode.HTML)
 
 @Client.on_message(filters.command("shortlink"))
 async def shortlink(bot, message):
