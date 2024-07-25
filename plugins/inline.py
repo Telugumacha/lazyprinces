@@ -36,7 +36,7 @@ async def answer(bot, query):
         await query.answer(results=[],
                            cache_time=0,
                            switch_pm_text='You have to Join our main channel to use the bot',
-                           switch_pm_parameter="Join")
+                           switch_pm_parameter="subscribe")
         return
 
     results = []
