@@ -105,7 +105,7 @@ async def doc(bot, update):
         new_filename = new_name.split(":-")[1]
         file = update.message.reply_to_message
         file_path = f"downloads/{new_filename}"
-        ms = await update.message.edit("\n༻☬ད 𝘽𝙪𝙞𝙡𝙙𝙞𝙣𝙜 𝙇𝙖𝙯𝙮 𝙈𝙚𝙩𝙖𝘿𝙖𝙩𝙖...")
+        ms = await update.message.edit("\n༻☬ད 𝘽𝙪𝙞𝙡𝙙𝙞𝙣𝙜 ᘻᗩᑢᕼᗩ 𝙈𝙚𝙩𝙖𝘿𝙖𝙩𝙖...")
         c_time = time.time()
         try:
             path = await bot.download_media(
@@ -1403,7 +1403,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("That's not for you sona!", show_alert=True)
+                await query.answer("That's not for you", show_alert=True)
     elif "=" in query.data:
         try:
             await youtube_dl_call_back(client, query)
@@ -1668,12 +1668,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚙ Sᴇᴛᴛɪɴɢs', callback_data='openSettings'),
             InlineKeyboardButton('♥️ Aʙᴏᴜᴛ', callback_data='about')
         ],[
-            InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 ℂℍ𝔸ℕℕ𝔼𝕃 ⪧', url='https://t.me/+K7ss_DvjBBljNDll')
+            InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 𝔾ℝ𝕆𝕌ℙ  ⪧', url='https://t.me/+K7ss_DvjBBljNDll')
         ],[
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
         ],[
                 InlineKeyboardButton(
-                    "🦋 Join our main channel  🦋", url='https://t.me/Telugu_machaa'
+                    "🦋 ΜΔƗŇ ĆĦΔŇŇ€Ł 🦋", url='https://t.me/Telugu_machaa'
                 )
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1682,7 +1682,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('♥️ Thank You LazyDeveloper ♥️')
+        await query.answer('♥️ Thank You Telugu_machaa ♥️')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -2287,7 +2287,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "lazyhome":
-        text = f"""\n⨳ *•.¸♡ Macha ＭⓄｄ𝓔 ♡¸.•* ⨳\n\n**Please tell, what should i do with this file.?**\n"""
+        text = f"""\n⨳ *•.¸♡ Μα匚ｈα ＭⓄｄ𝓔 ♡¸.•* ⨳\n\n**Please tell, what should i do with this file.?**\n"""
         buttons = [[ InlineKeyboardButton("📝✧✧ S𝚝ar𝚝 re𝚗aᗰi𝚗g ✧✧📝", callback_data="rename") ],
                            [ InlineKeyboardButton("⨳  C L Ф S Ξ  ⨳", callback_data="cancel") ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -2700,7 +2700,7 @@ async def auto_filter(client, msg, spoll=False):
         try:
             z = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                         reply_markup=InlineKeyboardMarkup(btn))
-            thanksaa = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/Chakri_05'>𓆩• Telugu macha •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
+            thanksaa = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/Telugu_machaa'>𓆩• Telugu macha •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
             await asyncio.sleep(5)
             await thanksaa.delete()
             if SELF_DELETE:
@@ -2711,7 +2711,7 @@ async def auto_filter(client, msg, spoll=False):
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
 
             m = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
-            thanks = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/Chakri_05'>𓆩• Telugu macha •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
+            thanks = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/Telugu_machaa'>𓆩• Telugu macha •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
             await asyncio.sleep(5)
             await thanks.delete()
             if SELF_DELETE:
@@ -2721,7 +2721,7 @@ async def auto_filter(client, msg, spoll=False):
         except Exception as e:
             logger.exception(e)
             n = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-            thanksz = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/Chakri_05'>𓆩• Telugu macha •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
+            thanksz = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/Telugu_machaa'>𓆩• Telugu macha •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
             await asyncio.sleep(5)
             await thanksz.delete()
             if SELF_DELETE:
@@ -2729,7 +2729,7 @@ async def auto_filter(client, msg, spoll=False):
                 await n.delete()         
     else:
         p = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-        thanksx = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/Chakri_05'>𓆩• Telugu macha •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
+        thanksx = await message.reply_text(f"♥ Heads up for **<a href='https://t.me/Telugu_machaa'>𓆩• Telugu macha •𓆪</a>**...\n<code>🎉 we love you 🎊</code>")
         await asyncio.sleep(5)
         await thanksx.delete()
         await asyncio.sleep(250)
