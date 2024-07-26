@@ -95,7 +95,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 ĴØƗŇ ΜΔƗŇ ĆĦΔŇŇ€Ł 🦋", url='https://t.me/Telugu_machaa'
+                    "🦋 ĴØƗŇ ΜØVƗ€ ǤŘØỮƤ 🦋", url='https://t.me/+K7ss_DvjBBljNDll'
                 )
             ]
         ]
