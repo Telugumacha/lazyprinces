@@ -70,7 +70,7 @@ async def start(client, message):
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
             ],[
                 InlineKeyboardButton(
-                    "🦋 ΜΔƗŇ ĆĦΔŇŇ€Ł  🦋", url='https://t.me/Telugu_machaa'
+                    "🦋 ΜΔƗŇ ĆĦΔŇŇ€Ł  🦋", url='https://t.me/Telugumachaa'
                 )
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -134,7 +134,7 @@ async def start(client, message):
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
         ],[
                 InlineKeyboardButton(
-                    "🦋 ΜΔƗŇ ĆĦΔŇŇ€Ł 🦋", url='https://t.me/Telugu_machaa'
+                    "🦋 ΜΔƗŇ ĆĦΔŇŇ€Ł 🦋", url='https://t.me/Telugumachaa'
                 )
             ]
         ]
@@ -199,7 +199,7 @@ async def start(client, message):
                                 InlineKeyboardButton('▶ Gen Stream / Download Link', callback_data=f'generate_stream_link:{file_id}'),
                             ],
                             [
-                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Telugu_machaa')
+                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/Telugumachaa')
                             ]
                         ]
                     )
