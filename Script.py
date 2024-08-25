@@ -2,16 +2,16 @@ class script(object):
     START_TXT = """Wʜᴀᴛ's ᴜᴘ ᴄɪɴᴇᴍᴀ ʟᴏᴠᴇʀ ! {} I'ᴍ ʏᴏᴜʀ ʙᴇʟᴏᴠᴇᴅ <a href=https://t.me/{}>{}</a>.\n\nFᴀsᴛᴇɴ ʏᴏᴜʀ sᴇᴀᴛʙᴇʟᴛs! I'ᴍ ʜᴇʀᴇ ᴛᴏ ʙʀɪɴɢ ᴍᴏᴠɪᴇs ᴛᴏ ʏᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ғᴀsᴛᴇʀ ᴛʜᴀɴ ᴀ Hᴏʟʟʏᴡᴏᴏᴅ ᴄᴀʀ ᴄʜᴀsᴇ. Lᴇᴛ's ʀᴏʟʟ! 🚗💨
 """
     LZTHMB_TEXT = """Hello {},
-Glad to see you here. It seems that you really love <a href=https://t.me/Chakri_05 >Teluguamcha's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/Telugu_machaa>Dev Channel</a> and stay tuned for next <a href=https://t.me/Telugu_machaa>update</a>.\n\n  🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ here: <a href=https://t.me/+K7ss_DvjBBljNDll>LazyDev Support</a>
+Glad to see you here. It seems that you really love <a href=https://t.me/Telugumacha_admin_bot >Teluguamcha's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/Telugumachaa>Dev Channel</a> and stay tuned for next <a href=https://t.me/Telugumachaa>update</a>.\n\n  🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ here: <a href=https://t.me/Telugumacha_admin_bot>LazyDev Support</a>
     """
     LZLINK_TEXT = """Hey {},
-Glad to see you here. It seems that you really love <a href=https://t.me/Chakri_05 >Telugumacha's</a> work.\n\n<b>File to LiNK converting</b> feature will be available soon, please join <a href=https://t.me/Telugu_machaa>Dev Channel</a> and stay tuned for next <a href=https://t.me/Telugu_machaa>update</a>.\n\n  🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ here: <a href=https://t.me/+K7ss_DvjBBljNDll>LazyDev Support</a>
+Glad to see you here. It seems that you really love <a href=https://t.me/Telugumacha_admin_bot >Telugumacha's</a> work.\n\n<b>File to LiNK converting</b> feature will be available soon, please join <a href=https://t.me/Telugumachaa>Dev Channel</a> and stay tuned for next <a href=https://t.me/Telugumachaa>update</a>.\n\n  🐞 ══• ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ •══ here: <a href=https://t.me/Telugumacha_admin_bot>LazyDev Support</a>
     """
     DNT_TEXT = """Hey sweetie {},
 Thanks for thinking about us.\nIt seems that you really love <a href=https://t.me/Chakri_05 >Telugumacha's</a> work.\n\n<b>For your kind information, we do not ask or force anyone for any kind of payment</b>. But if you really want to donate us then you can send money to us from below links...\n\n💵 Reach Donation Page : <a href=https://telegra.ph/file/9c7fbd85298bb6875f8b8.jpg>Click here...</a>\n\nT❤️ hank you so much..
     """
     REQ_AUTH_TEXT = """Hello {},
-\nSorry sweetie.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/+K7ss_DvjBBljNDll>Telugu macha Support</a>\n\n
+\nSorry sweetie.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/Telugumacha_admin_bot>Telugu macha Support</a>\n\n
     """
     SHORTLINK_INFO = """<b>
  ❗<u>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴜꜱɪɴɢ ʙᴏᴛ</u>❗
