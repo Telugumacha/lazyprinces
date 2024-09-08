@@ -165,7 +165,7 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 
 DISCUSSION_TITLE = "Click Here"
-DISCUSSION_CHAT_USRNM = "+K7ss_DvjBBljNDll" #without @
+DISCUSSION_CHAT_USRNM = "Telugumacha_admin_bot" #without @
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
